@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avenor — Plan it. Focus. Remember it.</title>
+  <meta name="description" content="Avenor is a free, private study app for students in 8th grade through college: a planner, a focus timer and a spaced-repetition memory coach in one. No ads, no account.">
+  <meta name="theme-color" content="#08090b">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Jakob's Law: a conventional top nav — logo left, links center, one call to action right -->
+  <header class="navbar">
+    <a class="logo" href="#top" aria-label="Avenor home">
+      <img src="assets/avenor-icon.png" alt="" width="32" height="32">
+      <span>Avenor</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#why">Why</a>
+      <a href="#features">Features</a>
+      <a href="#research">Research</a>
+      <a href="#download">Download</a>
+    </nav>
+    <a href="#demo" class="nav-button">Try it free</a>
+  </header>
+
+  <main id="main">
+    <!-- HERO — Hick's Law: one primary action, one secondary -->
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <div class="badge"><span></span>Free · No ads · No account · iPhone &amp; Android</div>
+        <h1>Plan it. Focus.<br><span>Remember it.</span></h1>
+        <p class="lead">
+          Avenor tells you what to work on next, runs a distraction-free study session,
+          and turns what you learned into review cards that come back right before you'd forget them.
+        </p>
+        <div class="hero-buttons">
+          <a href="#demo" class="primary-button">Try Avenor in your browser</a>
+          <a href="#how" class="secondary-button">How a study round works →</a>
+        </div>
+        <p class="hero-note">Built by students for students in 8th grade through college.</p>
+      </div>
+
+      <!-- Static preview of the app's Today screen (same layout as iOS and Android) -->
+      <div class="phone" aria-hidden="true">
+        <div class="phone-screen">
+          <div class="p-top">
+            <div>
+              <div class="p-greet">Good evening, Maya</div>
+              <div class="p-date">Thursday, October 22</div>
+            </div>
+            <div class="p-avatar">M</div>
+          </div>
+          <div class="p-panel p-progress">
+            <div class="ring" style="--p: 0.66"><div><b>40</b><small>of 60m</small></div></div>
+            <div>
+              <b>Only 20 min to today's goal.</b>
+              <div class="chips"><span class="chip orange">🔥 6-day streak</span><span class="chip green">✓ 2 done</span></div>
+            </div>
+          </div>
+          <div class="p-hero">
+            <small>FOCUS NOW</small>
+            <b>Bio lab report</b>
+            <span>Due tomorrow · High priority · 2 sessions</span>
+            <div class="p-start">▶ Start 25-min focus</div>
+            <div class="p-actions"><span>✓ Done</span><span>⚡ Just 5 min</span><span>→ Not now</span></div>
+          </div>
+          <div class="p-label">Up next</div>
+          <div class="p-panel p-list">
+            <div class="p-row"><i></i><div><b>APUSH reading ch. 12</b><span class="chip violet">History</span></div></div>
+            <div class="p-row"><i></i><div><b>Algebra 2 worksheet</b><span class="chip blue">Math</span></div></div>
+          </div>
+          <div class="p-quick">＋ Add a task — try “Bio essay fri 45m !”</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY — survey statistics -->
+    <section class="why" id="why">
+      <div class="section-heading">
+        <small>What students told us</small>
+        <h2>Homework isn't the hard part.<br><span>Starting is.</span></h2>
+        <p>We surveyed 33 students, most aged 14–18, before building Avenor 3.0. Here's what they said.</p>
+      </div>
+      <div class="stat-grid">
+        <article class="stat-card">
+          <div class="stat-number" data-count="66">66%</div>
+          <h3>spend 3+ hours a day on schoolwork</h3>
+          <p>The median was 3.5 hours. That's a lot of time to waste deciding what to do first.</p>
+        </article>
+        <article class="stat-card highlight">
+          <div class="stat-number" data-count="39">39%</div>
+          <h3>delay, avoid or distract themselves when stressed</h3>
+          <p>Only 9% said they face the problem right away. So Avenor makes starting tiny: <b>Just 5 minutes.</b></p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-number" data-count="45">45%</div>
+          <h3>spend most of their free time gaming</h3>
+          <p>Fun competes for attention. Study Mode goes full screen, nudges you back if you leave, and steers breaks away from short videos.</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-number">1 in 3</div>
+          <h3>asked for help with focus, planning or procrastination</h3>
+          <p>About 1 in 4 asked for something calming. Every break now has a 60-second breathing reset.</p>
+        </article>
+      </div>
+      <figure class="quotes">
+        <blockquote>“Stop me from procrastin…”</blockquote>
+        <blockquote>“An app that keeps you f[ocused]…”</blockquote>
+        <blockquote>“Make you a plan so you…”</blockquote>
+        <blockquote>“Like a calming tool”</blockquote>
+        <figcaption>Students' answers to “If you could design something to help, what would it do?” (cut off where our export cut them)</figcaption>
+      </figure>
+      <p class="fineprint">Avenor student survey, June 18–25, 2026. 33 valid responses (one response that wasn't genuine was removed). This is a small, self-selected sample, not national data. The full transcription and method are in the project's <code>research/</code> folder.</p>
+    </section>
+
+    <!-- HOW — Miller's Law: three steps -->
+    <section class="how" id="how">
+      <div class="section-heading">
+        <small>One study round</small>
+        <h2>Focus. Recall. <span>Rest.</span></h2>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <div class="step-number">01</div>
+          <h3>Tap Start.</h3>
+          <p>Avenor already picked your most urgent task and why: “Due tomorrow · High priority · 2 sessions.” One tap and the timer is running.</p>
+        </li>
+        <li class="step">
+          <div class="step-number">02</div>
+          <h3>Lock it in.</h3>
+          <p>When the ring fills, write one question you can now answer. It becomes a review card. Testing yourself is one of the most reliable ways to remember.</p>
+        </li>
+        <li class="step">
+          <div class="step-number">03</div>
+          <h3>Take a real break.</h3>
+          <p>Stretch, drink water, or try a 60-second breathing reset. Then go again. Cards come back after 1, 2, 4, 8 and 16 days.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+      <div class="section-heading">
+        <small>Everything in one free app</small>
+        <h2>Less deciding.<br><span>More doing.</span></h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card large">
+          <div class="feature-icon" aria-hidden="true">☀︎</div>
+          <h3>Today knows what's next.</h3>
+          <p>Avenor ranks your work by due date, priority and size, then shows <em>one</em> task with one big Start button, a daily focus ring and your streak. No more staring at a list.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">＋</div>
+          <h3>Type it like you'd text it.</h3>
+          <p><code>Chem worksheet tmrw 30m !</code> fills in the due date, time, priority and class for you.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">◉</div>
+          <h3>Study Mode.</h3>
+          <p>A full-screen timer with hold-to-quit, so ending early takes a deliberate choice.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">▤</div>
+          <h3>Review that sticks.</h3>
+          <p>Spaced-repetition cards made from your own questions. Two buttons: “Not yet” and “Got it.”</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔥</div>
+          <h3>A kind streak.</h3>
+          <p>One missed day per week of streak is forgiven. A sick day won't erase 40 days of work.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔒</div>
+          <h3>Private by design.</h3>
+          <p>No account, no ads, no tracking. Everything stays on your phone, which is also why Avenor costs almost nothing to run.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- DEMO -->
+    <section class="demo" id="demo">
+      <div class="section-heading">
+        <small>Try Avenor</small>
+        <h2>See it. <span>Use it.</span></h2>
+        <p>A working version of Avenor, right in your browser. Nothing is uploaded: your demo data stays in this browser.</p>
+      </div>
+
+      <div class="app" id="app">
+        <div class="app-screen" id="appScreen" aria-live="polite"></div>
+        <!-- Jakob's Law: the same four tabs, in the same order, as the phone apps -->
+        <nav class="tabbar" role="tablist" aria-label="Avenor demo">
+          <button role="tab" data-tab="today" aria-selected="true"><span aria-hidden="true">☀︎</span>Today</button>
+          <button role="tab" data-tab="plan" aria-selected="false"><span aria-hidden="true">☑︎</span>Plan</button>
+          <button role="tab" data-tab="focus" aria-selected="false"><span aria-hidden="true">◷</span>Focus</button>
+          <button role="tab" data-tab="review" aria-selected="false"><span aria-hidden="true">▤</span>Review<b class="tab-badge" id="reviewBadge" hidden></b></button>
+        </nav>
+      </div>
+      <p class="fineprint center">Tip: in Focus, pick “1 min (demo)” to see a full round, including the recall card, without waiting 25 minutes.</p>
+    </section>
+
+    <!-- UX LAWS -->
+    <section class="laws" id="laws">
+      <div class="section-heading">
+        <small>Designed around how brains work</small>
+        <h2>Eight design laws, <span>one calm app.</span></h2>
+      </div>
+      <div class="law-grid">
+        <article><h3>Jakob's Law</h3><p>Works like the apps you already use: standard tabs, swipe and menu actions, Undo instead of scary pop-ups.</p></article>
+        <article><h3>Fitts's Law</h3><p>Big Start buttons in the thumb zone and 44 px minimum targets. Quitting takes a deliberate hold.</p></article>
+        <article><h3>Hick's Law</h3><p>Four tabs, one suggested task, three session lengths, two review answers.</p></article>
+        <article><h3>Miller's Law</h3><p>Never more than 3–5 items at once. Big tasks show as small sessions.</p></article>
+        <article><h3>Tesler's Law</h3><p>The app does the setup: parsing, ranking, reminder times and colors.</p></article>
+        <article><h3>Aesthetic-Usability</h3><p>One calm dark design on iPhone, Android and web, with the same colors everywhere.</p></article>
+        <article><h3>Peak-End Rule</h3><p>Every session ends with a win. Stopping early “still counts.” Evenings end with a wrap-up.</p></article>
+        <article><h3>Von Restorff Effect</h3><p>Only the most important card on each screen is bright, so your eye goes straight to it.</p></article>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="research" id="research">
+      <div class="section-heading">
+        <small>The idea behind Avenor</small>
+        <h2>It started with <span>a question.</span></h2>
+        <p>How can technology support young people when life becomes overwhelming, without making it worse?</p>
+      </div>
+
+      <div class="research-card">
+        <div class="research-card-top">
+          <div>
+            <span class="research-tag">Original research · Aoun Jawa</span>
+            <h3>AI as a Supplemental Tool to Mitigate Mental Health Effects in Men</h3>
+          </div>
+        </div>
+        <div class="research-stats">
+          <div>
+            <b>2–6×</b>
+            <p>Graduate students experience anxiety and depression at two to six times the rate of the general population.</p>
+            <cite>Wildey et al., 2022, <i>Journal of American College Health</i></cite>
+          </div>
+          <div>
+            <b>≈ 1 in 2</b>
+            <p>During COVID-19, nearly half of people aged 19–29 reported symptoms of anxiety or depression, more than other age groups.</p>
+            <cite>Mojsa-Kaja et al., 2023, <i>PLOS ONE</i></cite>
+          </div>
+          <div>
+            <b>People first</b>
+            <p>“Social connection is a significant predictor of longevity and better physical, cognitive, and mental health.”</p>
+            <cite>U.S. Surgeon General, 2023</cite>
+          </div>
+        </div>
+        <div class="research-finding">
+          <h4>Why Avenor has no AI counselor</h4>
+          <p>
+            The paper found that AI therapy chatbots can miss clear signs of crisis
+            (Wells, Stanford HAI, 2025). So Avenor does what software does well, making schoolwork
+            feel manageable, and points to real people for everything else.
+          </p>
+        </div>
+        <a href="assets/research-paper.pdf" target="_blank" rel="noopener" class="research-button">Read the full research paper <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section class="download" id="download">
+      <div class="download-box">
+        <img src="assets/avenor-icon.png" alt="Avenor app icon" width="96" height="96" class="download-icon">
+        <h2>Your calmer <span>school year</span> starts here.</h2>
+        <p>Avenor 3.0 for iPhone and Android, free forever, with every feature unlocked.</p>
+        <div class="store-buttons">
+          <a class="store-button" href="#download" aria-disabled="true"><small>Coming soon on the</small>App Store</a>
+          <a class="store-button" href="#download" aria-disabled="true"><small>Coming soon on</small>Google Play</a>
+        </div>
+        <p class="fineprint">A Congressional App Challenge 2026 entry. Made by students.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <a class="logo" href="#top"><img src="assets/avenor-icon.png" alt="" width="28" height="28"><span>Avenor</span></a>
+      <p>No account. No ads. Your data stays on your device.</p>
+    </div>
+    <div class="help-line" role="note">
+      <b>Need to talk to someone?</b> Call or text <a href="tel:988">988</a>, the Suicide &amp; Crisis Lifeline. It's free, 24/7, anywhere in the U.S. You can also talk to a parent, teacher or school counselor.
+    </div>
+    <p class="copyright">© 2026 Avenor · MIT License · Avenor is a study tool, not medical or mental-health care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
