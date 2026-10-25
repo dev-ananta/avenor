@@ -4,9 +4,9 @@ One set of values, three implementations. If you change a value, change it in al
 
 | Platform | File |
 |---|---|
-| iOS (SwiftUI) | `iOS-version03/Avenor for iOS/Theme.swift` → `AvenorTheme` |
-| Android (Compose) | `Android-version03/app/src/main/java/com/example/avenor/ui/theme/Theme.kt` → `Av` |
-| Website (CSS) | `Website-version03/tokens.css` → `--av-*` variables |
+| iOS (SwiftUI) | `Avenor for iOS/Theme.swift` on the `ios` branch → `AvenorTheme` |
+| Android (Compose) | `app/src/main/java/com/example/avenor/ui/theme/Theme.kt` on the `android` branch → `Av` |
+| Website (CSS) | `tokens.css` on the `site` branch → `--av-*` variables |
 
 ## Color
 | Token | Hex | Used for |

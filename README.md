@@ -3,14 +3,14 @@
 **Plan it. Focus. Remember it.** A free, private study app for students in 8th grade through college, on iPhone, Android and the web.
 Built for the 2026 Congressional App Challenge.
 
-| Folder | What's inside | Build with |
+| Branch / file | What's inside | Build with |
 |---|---|---|
-| `iOS-version03/` | SwiftUI app (iOS 27+) | Xcode: open `Avenor for iOS.xcodeproj` and press ⌘R |
-| `Android-version03/` | Kotlin + Jetpack Compose app (Android 8+) | Android Studio: open the folder, Sync, then Run. `./gradlew test` runs the engine tests. |
-| `Website-version03/` | Landing page + working in-browser demo | Open `index.html` (no build step) |
-| `research/` | Research paper, survey screenshot, transcribed survey (`survey_transcribed.csv`), `SURVEY_FINDINGS.md` | — |
+| `ios` branch | SwiftUI app (iOS 27+) | Xcode: open `Avenor for iOS.xcodeproj` and press ⌘R |
+| `android` branch | Kotlin + Jetpack Compose app (Android 8+) | Android Studio: open the project, Sync, then Run. `./gradlew test` runs the engine tests. |
+| `site` branch | Landing page + working in-browser demo | Open `index.html` (no build step) |
+| `research` branch | Research paper, survey screenshot, transcribed survey (`survey_transcribed.csv`), `SURVEY_FINDINGS.md` | — |
 | `DESIGN_SYSTEM.md` | Colors, type, sizes, components and behavior rules shared by all three platforms | — |
-| `AI_DISCLOSURE.md` / `CAC_CHECKLIST.md` | What to disclose, plus a submission checklist | — |
+| `AI_DISCLOSURE.md` | What AI was used for, and who wrote each part | — |
 
 ## What changed in 3.0
 - **Same app everywhere.** iOS, Android and the web demo share one design system, the same four tabs (Today, Plan, Focus, Review) and the same engine: ranking, quick-add parsing, spaced repetition and kind streaks.

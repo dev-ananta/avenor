@@ -32,7 +32,7 @@ This is a new repository that merges the team's previous repositories. The git h
 | `android` | Android app |
 | `site` | Website |
 | `research` | Research and survey materials |
-| `origin` | AI Disclosure, Design System, LICENSE and README.md |
+| `main` | AI Disclosure, Design System, LICENSE and README.md |
 
 ## What the team should be able to explain
 - How "Focus Now" picks a task: `Planner.score` in `Engine.swift` / `Engine.kt` / `script.js`
@@ -40,7 +40,7 @@ This is a new repository that merges the team's previous repositories. The git h
 - How Leitner spaced repetition schedules cards (1, 2, 4, 8, 16 days)
 - How the timer stays correct with the screen off (timestamps, not a ticking counter)
 - Why there is no AI chatbot in the app (the research finding), and why the app shows 988
-- How each of the 8 UX laws shows up in the app (`iOS-version03/DESIGN.md`)
+- How each of the 8 UX laws shows up in the app (`DESIGN.md` on the `ios` branch)
 
 ## Suggested wording for the submission
 > "We designed Avenor, wrote the research paper and ran the survey ourselves. Anant Parikh wrote the iOS app, Aoun Jawa wrote the Android app and website, and Imran Ahmad wrote the design methodology and Business Model Canvas. We used Claude, an AI assistant, only to keep the iOS, Android and web versions in sync with each other. It did not rewrite our code. This repository merges our earlier repositories, so their past git history is not included."
