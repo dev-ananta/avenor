@@ -11,4 +11,4 @@ A free, private, on-device study app for students in 8th grade through college:
 | **Review** | Spaced-repetition flashcards (5-box Leitner: 1, 2, 4, 8, 16 days). Cards are created from your own focus-session recall or added by hand. |
 | **You** (avatar on Today) | Name, grade, daily goal, session length, reminders, stats, optional tip jar, reset. |
 
-### All iOS Code was written by Anant Parikh. Small portion was assisted by Claude Code to ensure that the code independently developed by Aoun Jawa for the Android users aligned. Once the Design Methodology was synchronized as confirmed by Imran Ahmad the entirety of the project returned to the hands of humanity.
+##### All iOS Code was written by Anant Parikh. Small portion was assisted by Claude Code to ensure that the code independently developed by Aoun Jawa for the Android users aligned. Once the Design Methodology was synchronized as confirmed by Imran Ahmad the entirety of the project returned to the hands of humanity.
