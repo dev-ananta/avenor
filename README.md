@@ -19,5 +19,5 @@ avenor/site/
 ```
 │── Phase 1 → Aoun Jawa developed the initial version of the website to match the Android application.
 │── Phase 2 → Anant Parikh rewrote the website with the assistance of Claude Code in order to match the Design Methodology of Imran Ahmad.
-└── Phase 3 → Imran Ahmad proofread the website and ensured the Design Methodology was flawlessly followed.
+└── Phase 3 → Imran Ahmad proofread the website and ensured the Design Methodology was flawlessly followed
 ```
